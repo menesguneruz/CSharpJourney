@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectOriented1", "ObjectOr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{1EFA43B7-5A07-4949-80B8-9003216F163C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics1", "Generics1\Generics1.csproj", "{C5B08762-64F2-4033-9F60-3DED613F89A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics1", "Generics1\Generics1.csproj", "{C5B08762-64F2-4033-9F60-3DED613F89A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOriented2", "ObjectOriented2\ObjectOriented2.csproj", "{DF804939-4032-4D8D-9C9B-77D2E8C5847F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C5B08762-64F2-4033-9F60-3DED613F89A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5B08762-64F2-4033-9F60-3DED613F89A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5B08762-64F2-4033-9F60-3DED613F89A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF804939-4032-4D8D-9C9B-77D2E8C5847F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF804939-4032-4D8D-9C9B-77D2E8C5847F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF804939-4032-4D8D-9C9B-77D2E8C5847F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF804939-4032-4D8D-9C9B-77D2E8C5847F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
