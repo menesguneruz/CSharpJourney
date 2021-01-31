@@ -6,6 +6,7 @@ namespace Methods
     {
         static void Main(string[] args)
         {
+            // Create a Product object.
             Product product1 = new Product();
             product1.Name = "Apple";
             product1.Price = 15;
@@ -19,6 +20,7 @@ namespace Methods
 
             Product[] products = new Product[] {product1, product2};
 
+            // foreach method visits and does operations on each products array elements.
             foreach (var product in products)
             {
                 Console.WriteLine(product.Name);

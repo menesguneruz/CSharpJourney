@@ -6,13 +6,15 @@ namespace ObjectOriented1
     {
         static void Main(string[] args)
         {
+            //First creating object way
             Product product1 = new Product();
             product1.Id = 1;
             product1.CategoryId = 2;
             product1.ProductName = "Table";
             product1.UnitPrice = 500;
             product1.UnitsInStock = 3;
-
+            
+            //Second creating object way
             Product product2 = new Product
             {
                 Id = 2,
