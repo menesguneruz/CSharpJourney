@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ObjectOriented3
 {
@@ -11,8 +12,15 @@ namespace ObjectOriented3
             ICreditBaseManager housingCreditManager = new HousingCreditManager();
             // Interfaces can keep the other classes's references too.
 
+            ILoggerService databaLoggerService = new DatabaseLoggerService();
+            ILoggerService fileLoggerService = new FileLoggerService();
+
             ApplicationManager applicationManager = new ApplicationManager();
-            applicationManager.MakeApplication(personalFinanceCreditManager);
+            applicationManager.MakeApplication(personalFinanceCreditManager, databaLoggerService);
+
+            List<ICreditBaseManager> credits = new List<ICreditBaseManager>() { vehicleCreditManager, personalFinanceCreditManager };
+
+            //applicationManager.GiveCreditInformation(credits);
         }
     }
 }
