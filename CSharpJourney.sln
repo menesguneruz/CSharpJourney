@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectOriented2", "ObjectOr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectOriented3", "ObjectOriented3\ObjectOriented3.csproj", "{37599FC1-BE5E-4A00-83F6-A98FF9C0A97F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicGameProject", "BasicGameProject\BasicGameProject.csproj", "{4FE168CF-7777-442A-94D0-0C11615C8969}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicGameProject", "BasicGameProject\BasicGameProject.csproj", "{4FE168CF-7777-442A-94D0-0C11615C8969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{23A06A2A-2572-4911-A3AA-1F530E4B4B21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4FE168CF-7777-442A-94D0-0C11615C8969}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FE168CF-7777-442A-94D0-0C11615C8969}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FE168CF-7777-442A-94D0-0C11615C8969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A06A2A-2572-4911-A3AA-1F530E4B4B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A06A2A-2572-4911-A3AA-1F530E4B4B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A06A2A-2572-4911-A3AA-1F530E4B4B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A06A2A-2572-4911-A3AA-1F530E4B4B21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
